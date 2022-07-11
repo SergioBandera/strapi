@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicios",
+  "info": {
+    "singularName": "servicio",
+    "pluralName": "servicios",
+    "displayName": "servicio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tipoServicio": {
+      "type": "enumeration",
+      "enum": [
+        "Desinsectación",
+        "Desratización",
+        "Desinfección"
+      ]
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "estadoPago": {
+      "type": "boolean"
+    }
+  }
+}
