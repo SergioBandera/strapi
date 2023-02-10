@@ -15,13 +15,13 @@
     "nombre": {
       "type": "string"
     },
-    "nombreLocal": {
-      "type": "string"
-    },
     "facturas": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::factura.factura"
+    },
+    "nombreLocal": {
+      "type": "string"
     }
   }
 }

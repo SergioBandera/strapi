@@ -13,21 +13,18 @@
   "pluginOptions": {},
   "attributes": {
     "precio": {
-      "type": "decimal",
-      "pluginOptions": {}
-    },
-    "iva": {
-      "type": "decimal",
-      "pluginOptions": {}
-    },
-    "precioTotal": {
-      "type": "decimal",
-      "pluginOptions": {}
+      "type": "integer"
     },
     "servicios": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::servicio.servicio"
+    },
+    "iva": {
+      "type": "integer"
+    },
+    "precioTotal": {
+      "type": "integer"
     }
   }
 }

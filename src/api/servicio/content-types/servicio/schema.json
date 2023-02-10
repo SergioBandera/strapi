@@ -12,19 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "tipoServicio": {
-      "type": "enumeration",
-      "enum": [
-        "Desinsectación",
-        "Desratización",
-        "Desinfección"
-      ]
+    "tipoTratamiento": {
+      "type": "string"
     },
     "fecha": {
-      "type": "date"
-    },
-    "estadoPago": {
-      "type": "boolean"
+      "type": "string"
     }
   }
 }
